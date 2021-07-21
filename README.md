@@ -1,2 +1,2 @@
 # PiSpy
-An inexpensive platform for automated video recording
+An inexpensive platform for automated image/video acquisition
