@@ -41,7 +41,6 @@ community of open-source research solutions.
 
 ## Overview of the PiSpy
 <img width="612" alt="Screen Shot 2022-03-15 at 3 33 50 PM" src="https://user-images.githubusercontent.com/64978673/158457158-29e40e41-570e-40ec-b083-b43d4f998991.png">
-
 Shown above is the base model of the PiSpy for simple image or video
 capture (Fig. 1a). A 3D printable holder mounts both the Raspberry Pi
 and PiCamera to a laser cut wooden frame, allowing for easy height
@@ -64,24 +63,22 @@ written in the user's manual for how to edit these in the code itself.
 
 ## Video and time lapse image recording across various scales
 
-GIF 1 HERE
-
+![ezgif-5-3c2d1c90c5](https://user-images.githubusercontent.com/64978673/158489057-43d25965-56be-4d87-bfe5-761724376ed7.gif)\
 Imaging of 10 *D. melanogaster* larval locomotion on an agar plate
 provided sufficient resolution for analysis with the ImageJ image
-processing software, as shown in the above video.
+processing software, as shown in the above video (sped up to 5x speed).
 
-GIF 2 HERE
 
+![ezgif-5-1ab624780d](https://user-images.githubusercontent.com/64978673/158489331-8b840c1c-fed0-4a90-b24e-6aaf5def2067.gif)\
 Video of crayfish behavior when placed in an aquarium allowed for the
 observation of subtle movements of the swimmerets and legs, even though
 the animals were underwater and being viewed through a plastic
 container.
 
-GIF 3 HERE
-
+![ezgif-5-a99b9cc39b](https://user-images.githubusercontent.com/64978673/158490145-afa4f2dd-aa33-4e09-8ed2-d727756cef79.gif)\
 Automated image capture also makes the PiSpy an effective device for
 capturing and visualizing organismal growth over time. Time-lapse
-imaging of various beans (*Phaseolus vulgaris*) growing in clear
+imaging every 5 minutes (and converted to a video at 300 fps) of various beans (*Phaseolus vulgaris*) growing in clear
 planters showed detailed root and shoot growth.
 
 GIF 4
