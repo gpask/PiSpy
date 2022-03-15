@@ -1,7 +1,6 @@
 PiSpy README
 
-# PiSpy: An Affordable, Accessible, and Flexible Imaging Platform for
-# the Automated Observation of Organismal Biology and Behavior
+# PiSpy: An Affordable, Accessible, and Flexible Imaging Platform for the Automated Observation of Organismal Biology and Behavior
 
 This project is licensed under ...
 The hardware is licensed under...
