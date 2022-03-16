@@ -132,7 +132,7 @@ The GPIO pins of the Raspberry Pi can also be used to trigger image or
 video capture with an external sensor, such as a motion sensor or IR
 break beam. In our setup (below), an ant disrupts the IR beam as it walks to a
 foraging arena, and again when it returns to the main colony. The physical setup is 
-shown in the image above, including the LEGO contraption to holding the break beam (right side):
+shown in the image below, including the LEGO contraption to holding the break beam (right side):
 <p align="center">
   <img width="522" alt="Fig. 3b" src="https://user-images.githubusercontent.com/64978673/158492397-d180ba2e-1d4e-4796-9bad-11f727a4c1e2.png">
 </p>
