@@ -1,6 +1,6 @@
 '''
 Class controlling day/night cycling and camera settings
-Copyright (C) 2022 Ben Morris, Marcy Kittredge, Bea Casey, Greg Pask
+Copyright (C) 2022 Benjamin Morris, Marcy Kittredge, Bea Casey, Gregory Pask
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
