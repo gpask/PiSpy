@@ -1,5 +1,5 @@
 '''
-Class that controlls image capture for the PiSpy
+Class that controls image capture for the PiSpy
 Copyright (C) 2022 Benjamin Morris, Marcy Kittredge, Bea Casey, Gregory Pask
 
 This program is free software: you can redistribute it and/or modify
