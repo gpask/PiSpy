@@ -12,7 +12,7 @@ BioRxiv and, eventually, full publication.
 * [Summary](#summary)
 * [Overview of the PiSpy](#overview-of-the-pispy)
 * [Video and time lapse image recording across various scales](#video-and-time-lapse-image-recording-across-various-scales)
-* [Custom setup for monitoring *Harpegnathos saltator* behavior](#custom-setup-for-monitoring-harpegnathos-saltator-behavior)
+* [Custom setup for monitoring ant behavior](#custom-setup-for-monitoring-ant-behavior)
 
 
 ## Summary
@@ -84,7 +84,7 @@ allow for clear visualization of organismal growth and could be used in
 a more formal study to compare and quantify growth of different species
 or under different growing conditions.
 
-## Custom setup for monitoring *Harpegnathos saltator* behavior
+## Custom setup for monitoring ant behavior
 
 
 <img width="280" alt="Screen Shot 2022-03-15 at 8 02 36 PM" src="https://user-images.githubusercontent.com/64978673/158491664-8bef87b2-deb3-4322-8f3f-afb618bd6aa6.png">\
