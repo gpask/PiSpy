@@ -1,6 +1,8 @@
 # PiSpy: An Affordable, Accessible, and Flexible Imaging Platform for the Automated Observation of Organismal Biology and Behavior
 
-<img width="491" alt="Screen Shot 2022-03-15 at 8 11 22 PM" src="https://user-images.githubusercontent.com/64978673/158492335-02b7099d-76e5-48fe-99c0-71db24b11269.png">
+<p align="center">
+  <img width="550" src="https://user-images.githubusercontent.com/64978673/158492335-02b7099d-76e5-48fe-99c0-71db24b11269.png">
+</p>
 
 This project is licensed under ...\
 The hardware is licensed under...\
@@ -36,7 +38,10 @@ can also contribute their own unique customizations and help grow the
 community of open-source research solutions.
 
 ## Overview of the PiSpy
-<img width="612" alt="Screen Shot 2022-03-15 at 3 33 50 PM" src="https://user-images.githubusercontent.com/64978673/158457158-29e40e41-570e-40ec-b083-b43d4f998991.png">
+
+<p align="center">
+  <img width="612" alt="Fig. 1" src="https://user-images.githubusercontent.com/64978673/158457158-29e40e41-570e-40ec-b083-b43d4f998991.png">
+</p>
 Shown above is the base model of the PiSpy for simple image or video
 capture (Fig. 1a). A 3D printable holder mounts both the Raspberry Pi
 and PiCamera to a laser cut wooden frame, allowing for easy height
@@ -59,7 +64,9 @@ written in the user's manual for how to edit these in the code itself.
 
 ## Video and time lapse image recording across various scales
 
-![ezgif-5-3c2d1c90c5](https://user-images.githubusercontent.com/64978673/158489057-43d25965-56be-4d87-bfe5-761724376ed7.gif)\
+<p align="center">
+  <img width="500" alt="Fig. 1" src="https://user-images.githubusercontent.com/64978673/158489057-43d25965-56be-4d87-bfe5-761724376ed7.gif">  
+
 Imaging of 10 *D. melanogaster* larval locomotion on an agar plate
 provided sufficient resolution for analysis with the ImageJ image
 processing software, as shown in the above video (sped up to 5x speed).
