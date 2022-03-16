@@ -82,7 +82,7 @@ container:
 
 Automated image capture also makes the PiSpy an effective device for
 capturing and visualizing organismal growth over time. Time-lapse
-imaging every 5 minutes (and converted to a video at 300 fps) of various beans (*Phaseolus vulgaris*) growing in clear
+imaging every 5 minutes (and converted to a video at 225 fps) of various beans (*Phaseolus vulgaris*) growing in clear
 planters showed detailed root and shoot growth:
 <p align="center">
   <img width="350" alt="Fig. 2c" src="https://user-images.githubusercontent.com/64978673/158493779-127c2a8b-5336-4cf7-8fa8-4dbde763048f.gif">
