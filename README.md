@@ -137,7 +137,7 @@ shown in the image below, including the LEGO contraption to holding the break be
   <img width="522" alt="Fig. 3b" src="https://user-images.githubusercontent.com/64978673/158492397-d180ba2e-1d4e-4796-9bad-11f727a4c1e2.png">
 </p>
 
-A sample video in which ants return to the main colony carrying a cricket is shown below:
+A sample video in which ants return to the main colony carrying crickets is shown below:
 <p align="center">
   <img width="700" alt="Fig. 3c" src="https://user-images.githubusercontent.com/64978673/158492636-761e52c7-627b-4750-a24a-bc5caaa052d7.gif">
 </p>
