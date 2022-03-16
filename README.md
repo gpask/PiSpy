@@ -71,7 +71,8 @@ observation of subtle movements of the swimmerets and legs, even though
 the animals were underwater and being viewed through a plastic
 container.
 
-![ezgif-5-a99b9cc39b](https://user-images.githubusercontent.com/64978673/158490145-afa4f2dd-aa33-4e09-8ed2-d727756cef79.gif)\
+
+![ezgif-5-1aa79cf8bf](https://user-images.githubusercontent.com/64978673/158493779-127c2a8b-5336-4cf7-8fa8-4dbde763048f.gif)\
 Automated image capture also makes the PiSpy an effective device for
 capturing and visualizing organismal growth over time. Time-lapse
 imaging every 5 minutes (and converted to a video at 300 fps) of various beans (*Phaseolus vulgaris*) growing in clear
