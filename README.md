@@ -105,7 +105,7 @@ Raspberry Pi and allow for the cycling of white and red lighting.
 ![ezgif-5-17523869d1](https://user-images.githubusercontent.com/64978673/158491915-3efa2ea3-894d-4ae9-b964-2cf2e28ca8d8.gif)\
 These sample videos show the ability of the PiSpy to record animal behavior
 in both day and night, with sufficient resolution to capture specific behaviors 
-such as antennal dueling (seen in the daytime recording on the left
+such as antennal dueling (seen in the daytime recording)
 In our experiment, the red light is not detected by the ants but allows
 for both day and night imaging. Specific camera settings are used to
 record in each different lighting conditions to ensure the desirable
