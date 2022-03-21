@@ -9,6 +9,7 @@ The hardware is licensed under CERN-OHL-S v2 or any later version\
 We are working towards publishing this work! Stay tuned for links to the
 BioRxiv and, eventually, full publication.
 
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">PiSpy</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Benjamin I. Morris, Marcy J. Kittredge, Bea Casey, Owen Meng, André Maia Chagas, Matt Lamparter, Thomas Thul, Gregory M. Pask</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/gpask/PiSpy" rel="dct:source">https://github.com/gpask/PiSpy</a>.
 
 **Contents:**
 * [Summary](#summary)
