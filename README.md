@@ -4,8 +4,8 @@
   <img width="550" src="https://user-images.githubusercontent.com/64978673/158492335-02b7099d-76e5-48fe-99c0-71db24b11269.png">
 </p>
 
-This project is licensed under ...\
-The hardware is licensed under...\
+This project is licensed under GNU General Public License v3.0 or any later version
+The hardware is licensed under CERN-OHL-S v2 or any later version
 We are working towards publishing this work! Stay tuned for links to the
 BioRxiv and, eventually, full publication.
 
