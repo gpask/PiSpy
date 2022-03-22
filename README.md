@@ -151,4 +151,7 @@ for use by other researchers and inspire further customizations,
 allowing it to serve as both a general use tool and one that can be
 applied to highly specific experimental approaches.
 
+Contributors to PiSpy:
+Benjamin I. Morris, Marcy J. Kittredge, Bea Casey, Owen Meng, André Maia Chagas, Matt Lamparter, Thomas Thul, Gregory M. Pask
+
 For this README, all videos were converted to GIF using ezgif.com
