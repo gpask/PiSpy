@@ -1,0 +1,48 @@
+title: PiSpy
+description: An Affordable, Accessible, and Flexible Imaging Platform based on a Raspberry
+  Pi computer and Pi camera
+intended-use: Automated Observation of Organismal Biology and Behavior
+keywords:
+  - video recording
+  - Raspberry Pi
+  - automated imaging
+  - null
+project-link: https://github.com/gpask/PiSpy
+image: https://user-images.githubusercontent.com/64978673/158457158-29e40e41-570e-40ec-b083-b43d4f998991.png
+made: true
+made-independently: true
+license:
+  hardware: CERN-OHL-1.2
+  documentation: CC-BY-SA-2.0
+  software: GPL-3.0-only
+licensor:
+  name: Greg Pask
+  affiliation: Middlebury College
+  email: gpask@middlebury.edu
+okh-manifest-version: 1.0.0
+date-created: 2022-03-22
+date-updated: 2022-03-22
+manifest-author:
+  name: Greg Pask
+  affiliation: Middlebury College
+  email: gpask@middlebury.edu
+manifest-language: en-US
+contact:
+  name: Greg Pask
+  affiliation: Middlebury College
+  email: gpask@middlebury.edu
+  social:
+    - platform: Twitter
+      user-handle: G_Pask
+contributors:
+  - name: Benjamin Morris
+  - name: Marcy Kittredge
+  - name: Bea Casey
+  - name: Owen Meng
+  - name: André Maia Chagas
+  - name: Matt Lamparter
+  - name: Thomas Thul
+  - name: Gregory Pask
+version: "1.0"
+development-stage: product
+documentation-home: https://github.com/gpask/PiSpy
