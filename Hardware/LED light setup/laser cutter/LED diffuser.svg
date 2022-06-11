@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 25.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1"
 	 id="svg8" inkscape:version="0.92.3 (2405546, 2018-03-11)" sodipodi:docname="drawing.svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 185 116.9"
@@ -8,21 +8,44 @@
 	.st0{fill:#FF0000;}
 	.st1{font-family:'ArialMT';}
 	.st2{font-size:5px;}
+	.st3{fill:#333333;}
+	.st4{fill:#FF4444;}
+	.st5{font-family:'DejaVuSansMono';}
+	.st6{font-size:3.4001px;}
 </style>
 <sodipodi:namedview  bordercolor="#666666" borderopacity="1.0" id="base" inkscape:current-layer="layer1" inkscape:cx="114.77807" inkscape:cy="41.785933" inkscape:document-units="mm" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:window-height="1008" inkscape:window-maximized="0" inkscape:window-width="958" inkscape:window-x="953" inkscape:window-y="0" inkscape:zoom="2.8" pagecolor="#ffffff" showgrid="false">
 	</sodipodi:namedview>
 <g id="layer1" inkscape:groupmode="layer" inkscape:label="Layer 1">
-	<path id="rect3713" inkscape:connector-curvature="0" d="M12.9,7.5v0.4v86.8h159.1V7.5H12.9z M13.7,8.2h157.6v85.7H13.7V8.2z"/>
+	<path id="rect3713" inkscape:connector-curvature="0" d="M12.9,7.5v0.4v86.8H172V7.5H12.9z M13.7,8.2h157.6v85.7H13.7V8.2z"/>
 	<path id="path3717" inkscape:connector-curvature="0" d="M42.1,75c-2.7,0-4.9,2.2-4.9,4.9s2.2,4.9,4.9,4.9s4.9-2.2,4.9-4.9
-		S44.8,75,42.1,75z M42.1,75.4c2.5,0,4.5,2,4.5,4.5c0,2.5-2,4.5-4.5,4.5s-4.5-2-4.5-4.5C37.6,77.4,39.6,75.4,42.1,75.4z"/>
+		S44.8,75,42.1,75z M42.1,75.4c2.5,0,4.5,2,4.5,4.5s-2,4.5-4.5,4.5s-4.5-2-4.5-4.5S39.6,75.4,42.1,75.4z"/>
 	<path id="path3717-7" inkscape:connector-curvature="0" d="M42.1,17.4c-2.7,0-4.9,2.2-4.9,4.9s2.2,4.9,4.9,4.9S47,25,47,22.3
 		S44.8,17.4,42.1,17.4z M42.1,17.8c2.5,0,4.5,2,4.5,4.5s-2,4.5-4.5,4.5s-4.5-2-4.5-4.5S39.6,17.8,42.1,17.8z"/>
-	<path id="path3717-3" inkscape:connector-curvature="0" d="M142.9,17.4c-2.7,0-4.9,2.2-4.9,4.9s2.2,4.9,4.9,4.9
-		c2.7,0,4.9-2.2,4.9-4.9S145.6,17.4,142.9,17.4z M142.9,17.8c2.5,0,4.5,2,4.5,4.5s-2,4.5-4.5,4.5c-2.5,0-4.5-2-4.5-4.5
-		S140.4,17.8,142.9,17.8z"/>
-	<path id="path3717-8" inkscape:connector-curvature="0" d="M142.9,75c-2.7,0-4.9,2.2-4.9,4.9s2.2,4.9,4.9,4.9
-		c2.7,0,4.9-2.2,4.9-4.9S145.6,75,142.9,75z M142.9,75.4c2.5,0,4.5,2,4.5,4.5c0,2.5-2,4.5-4.5,4.5c-2.5,0-4.5-2-4.5-4.5
-		C138.4,77.4,140.4,75.4,142.9,75.4z"/>
+	<path id="path3717-3" inkscape:connector-curvature="0" d="M142.9,17.4c-2.7,0-4.9,2.2-4.9,4.9s2.2,4.9,4.9,4.9s4.9-2.2,4.9-4.9
+		S145.6,17.4,142.9,17.4z M142.9,17.8c2.5,0,4.5,2,4.5,4.5s-2,4.5-4.5,4.5s-4.5-2-4.5-4.5S140.4,17.8,142.9,17.8z"/>
+	<path id="path3717-8" inkscape:connector-curvature="0" d="M142.9,75c-2.7,0-4.9,2.2-4.9,4.9s2.2,4.9,4.9,4.9s4.9-2.2,4.9-4.9
+		S145.6,75,142.9,75z M142.9,75.4c2.5,0,4.5,2,4.5,4.5s-2,4.5-4.5,4.5s-4.5-2-4.5-4.5S140.4,75.4,142.9,75.4z"/>
 </g>
-<text transform="matrix(1 0 0 1 97.5488 100.88)"><tspan x="0" y="0" class="st0 st1 st2">PiSpy</tspan><tspan x="-30.2" y="6" class="st0 st1 st2">Licensed under CERN-OHL-S v2</tspan><tspan x="-45.7" y="12" class="st0 st1 st2">Source location https://github.com/gpask/PiSpy</tspan></text>
+<text transform="matrix(1 0 0 1 97.5488 100.88)" class="st0 st1 st2">PiSpy</text>
+<text transform="matrix(1 0 0 1 67.3488 106.88)" class="st0 st1 st2">Licensed under CERN-OHL-S v2</text>
+<text transform="matrix(1 0 0 1 51.8488 112.88)" class="st0 st1 st2">Source location https://github.com/gpask/PiSpy</text>
+<g transform="translate(-614.09 -142.78)">
+	<g>
+		<path class="st3" d="M775.7,245.6v0.3v6.3v0.3h0.3h14.3h0.3v-0.3v-6.6H790l0,6.3h-13.7v-5.6h11.6v-0.6H776H775.7z"/>
+		<path class="st3" d="M779.2,249.1c0-0.5-0.1-0.9-0.2-1.1c-0.1-0.2-0.3-0.3-0.5-0.3c-0.2,0-0.4,0.1-0.5,0.3
+			c-0.1,0.2-0.2,0.6-0.2,1.1c0,0.5,0.1,0.9,0.2,1.1c0.1,0.2,0.3,0.3,0.5,0.3c0.2,0,0.4-0.1,0.5-0.3
+			C779.1,250,779.2,249.6,779.2,249.1 M779.7,249.1c0,0.6-0.1,1.1-0.3,1.4c-0.2,0.3-0.5,0.5-0.9,0.5s-0.7-0.2-0.9-0.5
+			s-0.3-0.8-0.3-1.4c0-0.6,0.1-1.1,0.3-1.4c0.2-0.3,0.5-0.5,0.9-0.5c0.4,0,0.7,0.2,0.9,0.5C779.6,248,779.7,248.5,779.7,249.1"/>
+		<path class="st3" d="M782.3,247.5v0.5c-0.1-0.1-0.3-0.2-0.4-0.2c-0.1,0-0.3-0.1-0.4-0.1c-0.2,0-0.4,0.1-0.5,0.2
+			c-0.1,0.1-0.2,0.2-0.2,0.4c0,0.2,0,0.3,0.1,0.4c0.1,0.1,0.2,0.2,0.5,0.2l0.3,0.1c0.3,0.1,0.6,0.2,0.7,0.4c0.2,0.2,0.2,0.4,0.2,0.7
+			c0,0.3-0.1,0.6-0.3,0.8c-0.2,0.2-0.5,0.3-0.9,0.3c-0.2,0-0.3,0-0.5-0.1c-0.2,0-0.3-0.1-0.5-0.2v-0.5c0.2,0.1,0.4,0.2,0.5,0.3
+			c0.2,0.1,0.3,0.1,0.5,0.1c0.2,0,0.4-0.1,0.6-0.2c0.1-0.1,0.2-0.3,0.2-0.5c0-0.2,0-0.3-0.1-0.4c-0.1-0.1-0.3-0.2-0.5-0.2l-0.3-0.1
+			c-0.3-0.1-0.6-0.2-0.7-0.3c-0.1-0.1-0.2-0.4-0.2-0.6c0-0.3,0.1-0.6,0.3-0.8c0.2-0.2,0.5-0.3,0.8-0.3c0.1,0,0.3,0,0.4,0
+			C782,247.3,782.2,247.4,782.3,247.5"/>
+		<path class="st3" d="M783.2,247.3h0.5v1.4h1.3v-1.4h0.5v3.5H785v-1.7h-1.3v1.7h-0.5V247.3"/>
+	</g>
+	<path class="st4" d="M785.8,247.3h0.5l0.3,2.9l0.4-1.9h0.5l0.4,1.9l1.1-5.5h0.5l-1.3,6.1h-0.5l-0.5-2.1l-0.5,2.1h-0.5L785.8,247.3"
+		/>
+	<text transform="matrix(1 0 0 1 775.9531 256.3734)" class="st3 st5 st6">US002095</text>
+</g>
 </svg>
