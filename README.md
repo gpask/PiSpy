@@ -4,13 +4,19 @@
   <img width="550" src="https://user-images.githubusercontent.com/64978673/158492335-02b7099d-76e5-48fe-99c0-71db24b11269.png">
 </p>
 
+We are working towards publishing this work! The preprint is now on [bioRxiv](https://www.biorxiv.org/content/10.1101/2022.03.21.485129v1)
+
 This project is licensed under [GNU General Public License v3.0](https://github.com/gpask/PiSpy/blob/master/LICENSE)\
 The hardware is licensed under [CERN-OHL-S v2](https://github.com/gpask/PiSpy/blob/master/Hardware/LICENSE)\
-We are working towards publishing this work! The preprint is now on [bioRxiv](https://www.biorxiv.org/content/10.1101/2022.03.21.485129v1)\
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">PiSpy</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Benjamin I. Morris, Marcy J. Kittredge, Bea Casey, Owen Meng, André Maia Chagas, Matt Lamparter, Thomas Thul, Gregory M. Pask</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br /></a>
+
+![oshw_facts (1)](https://user-images.githubusercontent.com/65040738/173196172-edbf5e26-5b83-4c87-8aaa-ec2ce63943bc.svg)
+
 ![PiSpy OSHWA](https://user-images.githubusercontent.com/65040738/173195494-ecd6bd5a-ad43-461c-9df3-48389fa06da8.svg)\
 This project is Open Source Hardware Association certified [OSHWA UID US002095](https://certification.oshwa.org/us002095.html)
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">PiSpy</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Benjamin I. Morris, Marcy J. Kittredge, Bea Casey, Owen Meng, André Maia Chagas, Matt Lamparter, Thomas Thul, Gregory M. Pask</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br /></a>
+
 
 **Contents:**
 * [Summary](#summary)
