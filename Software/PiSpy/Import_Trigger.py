@@ -30,7 +30,7 @@ class Import_Trigger: #class for triggered recording
             lights.light_on(RONTime, WONTime, ROFFTime, WOFFTime)
             sleep(1)
     
-    def image_trigger(self, delay, trigger, duration, RONTime, WONTime, ROFFTime, WOFFTime, resolution): #manages sensing and acquisition of images
+    def image_trigger(self, ID, delay, trigger, duration, RONTime, WONTime, ROFFTime, WOFFTime, resolution): #manages sensing and acquisition of images
         GPIO.setmode(GPIO.BCM) #set BCM GPIO numbering (how pins are referenced) 
         GPIO.setwarnings(False) # disables warnings
         GPIO.setup(trigger, GPIO.IN) # sets GPIO connected to sensor as an input 
@@ -73,6 +73,7 @@ class Import_Trigger: #class for triggered recording
             if x==0: #break beam is broken, for motion sensor switch to if i >= 1 (some sensors output a 1 when triggered and some output a 0, for other sensors test the output by uncommenting the above print statement to determine what to use
                 print('capturing image')
                 timestamp = datetime.now().strftime("%Y_%m_%d_%H_%M_%S") #sets variable for current time (to seconds)
+                timestamp = ID + timestamp
                 cam.capture("/home/pi/Pictures/{}.jpg".format(timestamp)) #takes image, saves to specified path with the timestamp as the format
                 cam.close() #close camera
                 self.timed_delay(delay, RONTime, WONTime, ROFFTime, WOFFTime) #delays specified amount of time, but still checks if lights need to be switched
@@ -84,7 +85,7 @@ class Import_Trigger: #class for triggered recording
                 print('ready to capture again')
         
     
-    def video_trigger(self, delay, trigger, duration, length, RONTime, WONTime, ROFFTime, WOFFTime, resolution, framerate): #manages sensing and acquisition of videos
+    def video_trigger(self, ID, delay, trigger, duration, length, RONTime, WONTime, ROFFTime, WOFFTime, resolution, framerate): #manages sensing and acquisition of videos
         
         GPIO.setmode(GPIO.BCM) #set BCM GPIO numbering (how pins are referenced) 
         GPIO.setwarnings(False) # disables warnings
@@ -128,6 +129,7 @@ class Import_Trigger: #class for triggered recording
             if x==0: #break beam is broken, for motion sensor switch to if i >= 1 (some sensors output a 1 when triggered and some output a 0, for other sensors test the output by uncommenting the above print statement to determine what to use
                 print('capturing video')
                 timestamp = datetime.now().strftime("%Y_%m_%d_%H_%M_%S") #sets variable for current time (to seconds)
+                timestamp = ID + timestamp
                 name = "/home/pi/Videos/{}".format(timestamp)
                 cam.start_recording(name + ".h264".format(timestamp)) #begins recording, saves to specified path with the timestamp as the format
                 cam.wait_recording(length) #checks for exceptions- if error occurs the recording will stop
