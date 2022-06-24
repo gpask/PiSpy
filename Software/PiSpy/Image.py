@@ -24,7 +24,7 @@ from Day_Night_Mode import *
 
 class Image:
 
-    def image_capture(self, resolution): #captures image, using settings based off which lights are on
+    def image_capture(self, ID, resolution): #captures image, using settings based off which lights are on
         cam = PiCamera()
         lights = Day_Night() #initiates lights class
         GPIO.setmode(GPIO.BCM) #set BCM GPIO numbering (how pins are referenced)
@@ -36,6 +36,7 @@ class Image:
         else: #otherwise, use day settings
             lights.camDay(cam, resolution)
         timestamp = datetime.now().strftime("%Y_%m_%d_%H_%M_%S") #sets variable for current time (to minutes)
+        timestamp = ID + timestamp
         sleep(2) # sleep for 2 seconds to let camera "warmup"
         cam.capture("/home/pi/Pictures/{}.jpg".format(timestamp)) #takes image, saves to specified path with the timestamp as the format
         cam.stop_preview() #hides preview window
