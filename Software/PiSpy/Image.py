@@ -36,6 +36,8 @@ class Image:
         else: #otherwise, use day settings
             lights.camDay(cam, resolution)
         timestamp = datetime.now().strftime("%Y_%m_%d_%H_%M_%S") #sets variable for current time (to minutes)
+        time = datetime.now().strftime("%H:%M:%S") #sets variable for current time (to seconds)
+        print('image captured at ' + time)
         timestamp = ID + timestamp
         sleep(2) # sleep for 2 seconds to let camera "warmup"
         cam.capture("/home/pi/Pictures/{}.jpg".format(timestamp)) #takes image, saves to specified path with the timestamp as the format
