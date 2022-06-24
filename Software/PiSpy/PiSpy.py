@@ -183,7 +183,8 @@ class App:
         self.framerate_description1 = Label(self.master, text="(fps)").grid(row=2, column = 2, sticky = W)
         self.framerate_box = Entry(self.master, state = DISABLED)  #creates framerate selection box
         self.framerate_box.grid(row = 2, column = 1, sticky = W)  #places framerate selection box
-        
+
+
         times = Time_Lists() #initiates Time_Lists class
         lights = Day_Night() #initiates Day_Night class
 
@@ -195,6 +196,9 @@ class App:
             self.frequency_box.config(state=DISABLED)
             self.duration_box.config(state=DISABLED)
             time = datetime.now().strftime("%H:%M") # get current system time in hour:minute format
+            ID = ''
+            if self.filename_box.get() != '':
+                ID = self.filename_box.get().replace(" ", "_") + '_'
             if timedImageMode.get() == 1 or timedVideoMode.get() == 1: #timed mode selected
                 if video.get() == 1: #timed video mode selected
                     self.times = times.createList(time, float(self.duration_box.get()), ((int(self.frequency_box.get()[0:2])*60) + (int(self.frequency_box.get()[3:5])))) # create list of all recording times
@@ -221,6 +225,8 @@ class App:
                     print("Frequency: " + frequency + " minutes")
                     print("Camera Resolution: " + str(self.resolution[0]) + "x" + str(self.resolution[1]))
                     print("Camera Frame Rate: " + str(self.framerate))
+                    if ID != '':
+                        print("File Identifier: " + ID[:-1])
                     if WONTime != '':
                         print('White lights on at ' + WONTime)
                     if WOFFTime != '':
@@ -233,7 +239,7 @@ class App:
                     while len(self.times) > 0: #run program with selected settings
                         s = sched.scheduler(t.time, t.sleep)
                         light_thread = s.enter(.5, 1, lights.light_on(RONTime, WONTime, ROFFTime, WOFFTime))
-                        time_thread = s.enter(20.25, 1, times.checkVidTime(self.captureLength, self.resolution, self.framerate))
+                        time_thread = s.enter(20.25, 1, times.checkVidTime(ID, self.captureLength, self.resolution, self.framerate))
                         
                            
                 elif image.get() == 1: #prints selected settings using scheduler
@@ -242,6 +248,8 @@ class App:
                     print("Duration: " + i_duration + " hours")
                     print("Frequency: " + i_frequency + " minutes")
                     print("Camera Resolution: " + str(self.resolution[0]) + "x" + str(self.resolution[1]))
+                    if ID != '':
+                        print("File Identifier: " + ID[:-1])
                     if WONTime != '':
                         print('White lights on at ' + WONTime)
                     if WOFFTime != '':
@@ -254,7 +262,7 @@ class App:
                     while len(self.image_times) > 0: #run program with selected settings using scheduler
                         s = sched.scheduler(t.time, t.sleep)
                         image_light_thread = s.enter(.5, 1, lights.light_on(RONTime, WONTime, ROFFTime, WOFFTime))
-                        image_time_thread = s.enter(20.25, 1, times.checkImageTime(self.resolution))
+                        image_time_thread = s.enter(20.25, 1, times.checkImageTime(ID, self.resolution))
                         
             elif triggerImageMode.get() == 1 or triggerVideoMode.get() == 1: #triggered mode selected
                 trigger_mode = Import_Trigger()
@@ -278,6 +286,8 @@ class App:
                     print("Delay: " + str(int(delay[0:2])*60 + int(delay[3:5])) + " seconds")
                     print("Camera Resolution: " + str(self.resolution[0]) + "x" + str(self.resolution[1]))
                     print("Camera Frame Rate: " + str(self.framerate))
+                    if ID != '':
+                        print("File Identifier: " + ID[:-1])
                     if WONTime != '':
                         print('White lights on at ' + WONTime)
                     if WOFFTime != '':
@@ -287,7 +297,7 @@ class App:
                     if ROFFTime != '':
                         print('Red lights off at ' + ROFFTime)
                     
-                    trigger_mode.video_trigger(delay, input_trigger, duration, length, RONTime, WONTime, ROFFTime, WOFFTime, self.resolution, self.framerate) #run program for triggered video mode
+                    trigger_mode.video_trigger(ID, delay, input_trigger, duration, length, RONTime, WONTime, ROFFTime, WOFFTime, self.resolution, self.framerate) #run program for triggered video mode
                     
                 elif image.get() == 1: #triggered image mode
                     i_delay = self.i_delay_box.get()
@@ -305,6 +315,8 @@ class App:
                     print("Source: GPIO" + str(i_input_trigger))
                     print("Delay: " + str(int(i_delay[0:2])*60 + int(i_delay[3:5])) + " seconds")
                     print("Camera Resolution: " + str(self.resolution[0]) + "x" + str(self.resolution[1]))
+                    if ID != '':
+                        print("File Identifier: " + ID[:-1])
                     if WONTime != '':
                         print('White lights on at ' + WONTime)
                     if WOFFTime != '':
@@ -314,12 +326,16 @@ class App:
                     if ROFFTime != '':
                         print('Red lights off at ' + ROFFTime)
                     
-                    trigger_mode.image_trigger(i_delay, i_input_trigger, i_duration, RONTime, WONTime, ROFFTime, WOFFTime, self.resolution) #run program for triggered video mode
+                    trigger_mode.image_trigger(ID, i_delay, i_input_trigger, i_duration, RONTime, WONTime, ROFFTime, WOFFTime, self.resolution) #run program for triggered video mode
 
 
                 
         self.apply_button = Button(self.master, text = "Run Program", command = set_on)  #creates run program button
         self.apply_button.grid(row=14, column= 5, sticky=W) #places run program buttom
+        
+        self.filename_description1 = Label(self.master, text="File Identifier:").grid(row=13, column = 4, sticky = E)
+        self.filename_box = Entry(self.master)  #creates framerate selection box
+        self.filename_box.grid(row = 13, column = 5, sticky = W)  #places framerate selection box
 
 #         def cancel_program(): #allows for changes to parameters
 #             # enable all the buttons and boxes disabled when 'Apply' was clicked
@@ -387,7 +403,7 @@ class App:
                 print("no mode selected")
                 
         self.quick_capture_button = Button(self.master, text = "Quick Capture", width = 10, command = quick_capture)  #creates button for quick capture
-        self.quick_capture_button.grid(row=12, column = 5, sticky=W) #places button for quick capture
+        self.quick_capture_button.grid(row=11, column = 5, sticky=W) #places button for quick capture
         
         
         
