@@ -55,7 +55,7 @@ class Time_Lists:
                     self.times.append(currentTime) #add time to list of times
                 else: #if going to pass xx:59 and not going to pass 24:00
                     currentTime = str(int(currentTime[0:2]) + (int(currentTime[3:]) + freq) // 60) + ":" + str(int(currentTime[3:]) - ((int(currentTime[3:]) + freq) // 60) * 60 + freq) #set currentTime to be in the new hour with appropriate minutes
-                    if currentTime[1] is ":": #if the second index of the time string is a colon add a zero in front of first digit
+                    if currentTime[1] == ":": #if the second index of the time string is a colon add a zero in front of first digit
                         currentTime = "0" + currentTime #add zero in front of the currentTime
                     if (len(currentTime)==4): #if the minutes over the hour is under 10 eg 00:66
                         currentTime = str((currentTime[0:3])) + "0" + str(int(currentTime[3:])) #set currentTime to be in the new hour with appropriate minutes
@@ -65,32 +65,32 @@ class Time_Lists:
         return(self.times) #return it to the computer
 
 
-    def checkVidTime(self, captureLength, resolution, framerate): #finds the current time
+    def checkVidTime(self, ID, captureLength, resolution, framerate): #finds the current time
         time = datetime.now().strftime("%H:%M") # get current system time in hour:minute format
         if time == self.times[0]: # if current system time is next recording time
             del self.times[0] # removes current time from list
             while(self.lock == 1): #while light is on
                 pass;
-            self.apply_video_program(captureLength, resolution, framerate) #call function to start recording
+            self.apply_video_program(ID, captureLength, resolution, framerate) #call function to start recording
             #print(times)
                 
                 
-    def checkImageTime(self, resolution): #finds the current time
+    def checkImageTime(self, ID, resolution): #finds the current time
         time = datetime.now().strftime("%H:%M") # get current system time in hour:minute format
         if time == self.times[0]:
             del self.times[0]
             while(self.lock==1):
                 pass; 
-            self.apply_image_program(resolution)
+            self.apply_image_program(ID, resolution)
 
 
-    def apply_video_program(self, captureLength, resolution, framerate): #helper function to start recording
+    def apply_video_program(self, ID, captureLength, resolution, framerate): #helper function to start recording
             recording = Record()
             picture = Image()
-            recording.start_record(captureLength, resolution, framerate) #calling start_record function
+            recording.start_record(ID, captureLength, resolution, framerate) #calling start_record function
             
                 
-    def apply_image_program(self, resolution): #helper function to start recording
+    def apply_image_program(self, ID, resolution): #helper function to start recording
             picture = Image()
             timestamp = datetime.now().strftime("%H:%M") #sets variable for current time (to seconds)
-            picture.image_capture(resolution)
+            picture.image_capture(ID, resolution)
