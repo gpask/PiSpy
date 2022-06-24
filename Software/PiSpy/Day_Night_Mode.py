@@ -80,24 +80,24 @@ class Day_Night:
             
 
     def whiteLight(self, key): #sets white light
-        if key is 'on': #if the function is called to turn light on
+        if key == 'on': #if the function is called to turn light on
             GPIO.setmode(GPIO.BCM) #set BCM GPIO numbering (how pins are referenced)
             GPIO.setwarnings(False) # disables warnings
             GPIO.setup(18,GPIO.OUT) #set GPIO 18 as output (output mode)
             GPIO.output(18,GPIO.HIGH) #set to 3.3V
-        elif key is 'off': #if the function is called to turn light off
+        elif key == 'off': #if the function is called to turn light off
             GPIO.setmode(GPIO.BCM) #set BCM GPIO numbering (how pins are referenced)
             GPIO.setwarnings(False) #disables warnings
             GPIO.setup(18,GPIO.OUT) # set GPIO 18 as output (output mode)
             GPIO.output(18,GPIO.LOW) #set to 0V
 
     def redLight(self, key): #sets red light
-        if key is 'on': #if function is called to turn light on
+        if key == 'on': #if function is called to turn light on
             GPIO.setmode(GPIO.BCM) #set BCM GPIO numbering (how pins are referenced) **CHANGE TO GPIO.BOARD- SAFER**
             GPIO.setwarnings(False) #disable warnings
             GPIO.setup(14,GPIO.OUT) # set GPIO 14 as output (output mode)
             GPIO.output(14,GPIO.HIGH) #set to 3.3V
-        elif key is 'off': #if function is called to turn light off
+        elif key == 'off': #if function is called to turn light off
             GPIO.setmode(GPIO.BCM) #set BCM GPIO numbering (how pins are referenced) **CHANGE TO GPIO.BOARD- SAFER**
             GPIO.setwarnings(False) #disable warnings
             GPIO.setup(14,GPIO.OUT) #set GPIO as output (output mode)
