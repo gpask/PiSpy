@@ -24,7 +24,7 @@ import os as os
 
 class Record:
 
-    def start_record(self, captureLength, resolution, framerate): #captures video, using settings based off which lights are on
+    def start_record(self, ID, captureLength, resolution, framerate): #captures video, using settings based off which lights are on
         cam = PiCamera()
         GPIO.setmode(GPIO.BCM) #set BCM GPIO numbering (how pins are referenced)
         GPIO.setwarnings(False) # disables warnings
@@ -36,6 +36,7 @@ class Record:
         else: #otherwise, use day settings
             lights.cam_day(cam, resolution, framerate)
         timestamp = datetime.now().strftime("%Y_%m_%d_%H_%M_%S") #sets variable for current time (to minutes)
+        timestamp = ID + timestamp
         sleep(2) # sleep for 2 seconds to let camera "warmup"
         time = datetime.now().strftime("%H:%M:%S") #sets variable for current time (to seconds)
         print("Recording began at " + time) #prints to monitor
