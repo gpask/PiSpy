@@ -4,7 +4,7 @@
   <img width="550" src="https://user-images.githubusercontent.com/64978673/158492335-02b7099d-76e5-48fe-99c0-71db24b11269.png">
 </p>
 
-We are working towards publishing this work! The preprint is now on [bioRxiv](https://www.biorxiv.org/content/10.1101/2022.03.21.485129v1)
+PiSpy has now been published at PLOS One! Check it out [here]!(https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0276652)
 
 This project is licensed under [GNU General Public License v3.0](https://github.com/gpask/PiSpy/blob/master/LICENSE)\
 The hardware is licensed under [CERN-OHL-S v2](https://github.com/gpask/PiSpy/blob/master/Hardware/LICENSE)\
